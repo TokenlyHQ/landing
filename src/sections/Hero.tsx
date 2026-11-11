@@ -6,8 +6,8 @@ export function Hero() {
   const { t } = useLanguage()
 
   return (
-    <section className="relative">
-      <div className="animate-fade-up mx-auto max-w-[760px] px-4 py-16 text-center sm:px-8 sm:py-20 lg:py-24">
+    <section className="relative" id="top">
+      <div className="animate-fade-up mx-auto max-w-[820px] px-4 py-16 text-center sm:px-8 sm:py-20 lg:py-24">
         <p className="text-5xl font-semibold tracking-tight text-navy-900 sm:text-6xl">
           {brand.name}
         </p>
@@ -27,7 +27,8 @@ export function Hero() {
           </Button>
         </div>
 
-        <p className="mt-6 text-base text-[#9298a8] sm:text-lg">{t.hero.served}</p>
+        <p className="mt-6 text-base font-medium text-navy-700 sm:text-lg">{t.hero.support}</p>
+        <p className="mt-3 text-base text-[#9298a8]">{t.hero.served}</p>
       </div>
     </section>
   )

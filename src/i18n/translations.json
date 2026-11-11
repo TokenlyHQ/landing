@@ -4,24 +4,25 @@
     "langShort": "EN",
     "nav": {
       "solutions": "Solutions",
-      "industries": "Industries",
+      "custom": "Custom Development",
       "deployment": "Deployment",
       "about": "About",
       "contact": "Contact",
-      "cta": "Book a Consultation",
+      "cta": "Discuss Your Requirements",
       "menuOpen": "Open menu",
       "menuClose": "Close menu"
     },
     "hero": {
-      "headline": "Healthcare software built around your hospital.",
-      "sub": "Billing, patients, pharmacy stock — matched to your workflow, on your infrastructure.",
-      "ctaPrimary": "Book a Free Consultation",
-      "ctaSecondary": "See Solutions",
-      "served": "Hospitals, clinics & pharmacies · Tamil Nadu"
+      "headline": "Software That Works the Way Your Business Does.",
+      "sub": "From hospital management and appointment booking to billing and inventory, we build ready-to-use and custom software designed around your workflows.",
+      "ctaPrimary": "Discuss Your Requirements",
+      "ctaSecondary": "Explore Our Solutions",
+      "support": "Ready-to-use products. Custom-built workflows. Flexible deployment.",
+      "served": "Hospitals, clinics, pharmacies & local businesses · Tamil Nadu"
     },
     "industries": {
       "eyebrow": "Who we serve",
-      "title": "Built for busy healthcare teams.",
+      "title": "Built for healthcare teams and growing businesses.",
       "items": [
         "Hospitals",
         "Nursing homes",
@@ -32,110 +33,255 @@
       ]
     },
     "problems": {
-      "eyebrow": "Pain points",
-      "title": "What slows your front desk today.",
+      "eyebrow": "Common challenges",
+      "title": "What slows operations today.",
       "items": [
         "Manual billing & paper records",
         "Hard-to-find old patient bills",
-        "Same data typed again and again",
+        "Appointment chaos at the front desk",
         "Missed charges during IPD stays",
-        "No clear view of pharmacy stock",
+        "Unclear pharmacy & drug stock",
         "Reports that take hours",
         "Software that fights your process"
       ]
     },
     "solutions": {
       "eyebrow": "Solutions",
-      "title": "Four systems. Built to fit.",
+      "title": "Solutions We Build",
+      "sub": "Choose an existing solution, customize it to your needs, or build something entirely tailored to your business.",
+      "disclaimer": "These are solutions we build and customize around your workflow — scope is confirmed during consultation.",
+      "expand": "View details",
+      "collapse": "Hide details",
       "items": [
         {
-          "title": "Hospital Management",
-          "points": [
-            "IPD & OPD billing",
-            "Registration & admission",
-            "Invoices & reprints",
-            "Advances & payments",
-            "Daily reports"
+          "id": "appointments",
+          "title": "Appointment Booking Systems",
+          "description": "Make appointment scheduling simple for patients and manageable for your front desk.",
+          "value": "Patients book online. Your team manages everything in one place.",
+          "capabilities": [
+            {
+              "title": "Online appointment booking",
+              "points": [
+                "Patients visit your website",
+                "Select doctor, service or appointment type",
+                "Choose available date and time",
+                "Submit details and booking request",
+                "Get confirmation or next-step instructions"
+              ]
+            },
+            {
+              "title": "Calendar integration",
+              "note": "Depends on your existing calendar and setup.",
+              "points": [
+                "Google Calendar integration",
+                "Other calendars where supported",
+                "Availability management",
+                "Appointment synchronization",
+                "Safeguards to reduce double-booking"
+              ]
+            },
+            {
+              "title": "Front-desk management",
+              "points": [
+                "Central appointment dashboard",
+                "Upcoming appointments view",
+                "Patient-submitted details",
+                "Confirm, reschedule or cancel",
+                "Appointment status tracking"
+              ]
+            }
           ]
         },
         {
-          "title": "Pharmacy & Drug Inventory",
-          "note": "Separate from retail billing & manufacturing.",
-          "points": [
-            "Drug catalogue",
-            "Batch & expiry",
-            "Purchases & stock",
-            "Issue & return",
-            "Inventory reports"
+          "id": "hospital",
+          "title": "Billing & Hospital Management",
+          "description": "Manage patient billing, hospital charges, payments and operational records in one connected system.",
+          "value": "Generate, find and reprint bills without handwritten copies or manual searches.",
+          "capabilities": [
+            {
+              "title": "Hospital billing",
+              "points": [
+                "OPD and IPD billing",
+                "Final inpatient bills",
+                "Admission and discharge billing",
+                "Advance collection and payment tracking",
+                "Receipts and refunds",
+                "Historical invoice search",
+                "Duplicate invoice printing",
+                "Customizable bill formats",
+                "Daily collection reports"
+              ]
+            },
+            {
+              "title": "Hospital drug & consumables inventory",
+              "value": "Connect medicine and consumable movements to hospital operations and patient billing.",
+              "points": [
+                "Drug and consumables catalogue",
+                "Stock-in and stock-out tracking",
+                "Purchase management",
+                "Batch and expiry tracking",
+                "Stock issue to admitted patients",
+                "Unused stock returns",
+                "Inventory visibility and low-stock alerts",
+                "Inventory reports"
+              ]
+            },
+            {
+              "title": "GST-ready CA reporting",
+              "note": "Reporting and exports for your CA — not a GST filing service.",
+              "value": "Organize financial and tax-related data so your CA can prepare GST returns more efficiently.",
+              "points": [
+                "Sales invoice exports",
+                "Purchase register exports",
+                "Tax summaries",
+                "Credit and debit note records",
+                "Monthly reporting",
+                "Excel/CSV exports for CA review",
+                "Reconciliation support"
+              ]
+            }
           ]
         },
         {
-          "title": "Pharma Manufacturing",
-          "points": [
-            "Raw materials",
-            "Production planning",
-            "Batch / lot tracking",
-            "Finished goods",
-            "Costing & reports"
-          ]
-        },
-        {
-          "title": "Websites & Custom Apps",
-          "points": [
-            "Business websites",
-            "Internal dashboards",
-            "Workflow automation",
-            "Integrations"
+          "id": "pharmacy",
+          "title": "Pharmacy Billing & Inventory",
+          "description": "Manage pharmacy sales, stock movement and business performance in one billing and inventory solution.",
+          "value": "Keep billing, inventory and revenue visibility connected.",
+          "capabilities": [
+            {
+              "title": "Pharmacy billing",
+              "points": [
+                "Fast product search",
+                "Customer billing",
+                "Invoice and receipt generation",
+                "Returns and adjustments",
+                "Discount management",
+                "Multiple payment modes",
+                "Sales history"
+              ]
+            },
+            {
+              "title": "Inventory management",
+              "note": "Stock methods such as FIFO can be configured where required.",
+              "points": [
+                "Configurable stock methods including FIFO where needed",
+                "Batch and expiry tracking",
+                "Purchase and supplier management",
+                "Stock movement history",
+                "Low-stock alerts",
+                "Stock adjustment",
+                "Returns and damaged-stock handling"
+              ]
+            },
+            {
+              "title": "Business visibility",
+              "points": [
+                "Daily sales and revenue views",
+                "Purchase and sales reports",
+                "Product-wise sales",
+                "Stock valuation",
+                "Profitability indicators where cost data is available",
+                "Expiry and slow-moving stock reports"
+              ]
+            }
           ]
         }
       ]
     },
-    "deployment": {
-      "eyebrow": "Deployment",
-      "title": "Your servers. Your choice.",
-      "sub": "We match security, connectivity and backup needs — no one-size-fits-all cloud push.",
-      "items": [
+    "custom": {
+      "eyebrow": "Custom development",
+      "title": "Need Something Different? We'll Build It.",
+      "sub": "Every business has its own workflow. If an existing product doesn't fit, we build a solution for your operations.",
+      "examplesTitle": "Examples we build",
+      "examples": [
+        "Custom dashboards",
+        "Internal management systems",
+        "Workflow automation",
+        "Booking platforms",
+        "Billing systems",
+        "Inventory applications",
+        "Business websites",
+        "Software integrations",
+        "Industry-specific apps"
+      ],
+      "pathsTitle": "Three ways to work with us",
+      "paths": [
         {
-          "title": "On-premise",
-          "detail": "Runs on your local infrastructure."
+          "title": "Use an Existing Product",
+          "detail": "Start with one of our existing solutions."
         },
         {
-          "title": "Secure remote",
-          "detail": "VPN or identity-controlled gateway access."
+          "title": "Customize an Existing Product",
+          "detail": "Adapt screens, workflows, reports, integrations and business rules."
+        },
+        {
+          "title": "Build From Scratch",
+          "detail": "Develop a dedicated application around your requirements."
+        }
+      ],
+      "cta": "Tell Us What You Need"
+    },
+    "deployment": {
+      "eyebrow": "Deployment",
+      "title": "Your Software. Your Infrastructure. Your Choice.",
+      "sub": "We help you choose a deployment model based on your infrastructure, security needs and daily operations.",
+      "items": [
+        {
+          "title": "On-Premise",
+          "detail": "Host on your own server. Keep data in your environment. Local network access with backups you control."
+        },
+        {
+          "title": "Secure Remote Access",
+          "detail": "VPN or identity-based gateway for authorized users, with role-based permissions and access policies."
         },
         {
           "title": "Cloud",
-          "detail": "Managed hosting when it suits you."
+          "detail": "Managed hosting with remote access, centralized updates, and configurable backups and monitoring."
         }
       ]
     },
     "process": {
       "eyebrow": "How we work",
-      "title": "Five clear steps.",
+      "title": "From Your Workflow to Working Software.",
       "steps": [
-        "Understand your work",
-        "Map workflows",
-        "Build & customize",
-        "Deploy & train",
-        "Support & improve"
+        {
+          "title": "Understand",
+          "detail": "We learn how your business operates."
+        },
+        {
+          "title": "Design",
+          "detail": "We map workflows and identify the right approach."
+        },
+        {
+          "title": "Build",
+          "detail": "We configure, customize or develop the application."
+        },
+        {
+          "title": "Deploy",
+          "detail": "We install and configure the solution."
+        },
+        {
+          "title": "Support",
+          "detail": "We train your team and help improve the product."
+        }
       ]
     },
     "why": {
       "eyebrow": "Why Tokenly",
-      "title": "Practical. Local. Flexible.",
+      "title": "Practical software. Real workflows.",
       "items": [
-        "Direct developer involvement",
-        "Custom workflows",
-        "Local implementation",
-        "Flexible deployment",
-        "Hands-on staff training",
-        "Ongoing support"
+        "Solutions tailored to actual business workflows",
+        "Existing products and custom development",
+        "Flexible on-premise and cloud deployment",
+        "Direct technical involvement",
+        "Practical implementation and staff training",
+        "Ongoing support and improvements"
       ]
     },
     "contact": {
       "eyebrow": "Contact",
-      "title": "Ready when you have 10 minutes.",
-      "sub": "Tell us what you need. We reply with a clear next step.",
+      "title": "Let's Build the Right Solution for Your Business.",
+      "sub": "Tell us what you're trying to improve. We'll understand your workflow and discuss the right software approach.",
       "location": "Location",
       "email": "Email",
       "phone": "Phone",
@@ -146,20 +292,23 @@
         "organization": "Organization",
         "phone": "Phone",
         "email": "Email",
-        "solution": "What do you need?",
+        "solution": "Type of solution required",
         "solutionPlaceholder": "Select an option",
-        "description": "Short note",
-        "descriptionPlaceholder": "Hospital size, current pain, what you want fixed.",
-        "submit": "Book a Free Consultation",
+        "description": "Brief description",
+        "descriptionPlaceholder": "What should improve — billing, appointments, stock, reports, or something custom?",
+        "submit": "Discuss Your Requirements",
         "submitting": "Sending…",
         "whatsapp": "Chat on WhatsApp",
         "emailUs": "Email us",
         "options": [
-          "Hospital Management Software",
-          "Pharmacy / Drug Inventory",
-          "Pharmaceutical Manufacturing",
-          "Custom Website / Business App",
-          "Not sure yet"
+          "Hospital Management / Billing",
+          "Appointment Booking",
+          "Hospital Drug Inventory",
+          "Pharmacy Billing & Inventory",
+          "GST / CA Reporting",
+          "Custom Software",
+          "Business Website",
+          "Other"
         ],
         "errors": {
           "name": "Enter your name.",
@@ -175,31 +324,31 @@
       }
     },
     "footer": {
-      "blurb": "Custom healthcare & business software for Tamil Nadu.",
+      "blurb": "Ready-to-use and custom healthcare software for Tamil Nadu.",
       "solutions": "Solutions",
       "company": "Company",
       "contact": "Contact",
       "about": "About",
       "deployment": "Deployment",
+      "custom": "Custom Development",
       "privacy": "Privacy Policy",
       "terms": "Terms",
       "tokenly": "Tokenly",
-      "hospital": "Hospital Management",
-      "pharmacy": "Pharmacy Inventory",
-      "pharma": "Pharma Manufacturing",
-      "custom": "Custom Applications",
+      "appointments": "Appointment Booking",
+      "hospital": "Hospital Management & Billing",
+      "pharmacy": "Pharmacy Billing & Inventory",
       "rights": "All rights reserved.",
-      "tag": "Built for Indian hospital workflows."
+      "tag": "Built around Indian hospital and business workflows."
     },
     "privacy": {
       "back": "Back to home",
       "title": "Privacy Policy",
-      "updated": "Last updated: 10 November 2026"
+      "updated": "Last updated: 11 November 2026"
     },
     "terms": {
       "back": "Back to home",
       "title": "Terms of Use",
-      "updated": "Last updated: 10 November 2026"
+      "updated": "Last updated: 11 November 2026"
     }
   },
   "ta": {
@@ -207,40 +356,41 @@
     "langShort": "TA",
     "nav": {
       "solutions": "தீர்வுகள்",
-      "industries": "துறைகள்",
+      "custom": "தனிப்பயன் உருவாக்கம்",
       "deployment": "நிறுவல்",
       "about": "எங்களைப் பற்றி",
       "contact": "தொடர்பு",
-      "cta": "ஆலோசனை பதிவு",
+      "cta": "தேவைகளைப் பேசுங்கள்",
       "menuOpen": "மெனு திற",
       "menuClose": "மெனு மூடு"
     },
     "hero": {
-      "headline": "உங்கள் மருத்துவமனைக்கு ஏற்ற மென்பொருள்.",
-      "sub": "பில்லிங், நோயாளி மேலாண்மை, மருந்து இருப்பு — உங்கள் வேலைமுறைப்படி, உங்கள் சர்வரில்.",
-      "ctaPrimary": "இலவச ஆலோசனை",
-      "ctaSecondary": "தீர்வுகள்",
-      "served": "மருத்துவமனைகள், கிளினிக்குகள் & மருந்தகங்கள் · தமிழ்நாடு"
+      "headline": "உங்கள் வணிகம் இயங்கும் விதத்திற்கு ஏற்ற மென்பொருள்.",
+      "sub": "மருத்துவமனை மேலாண்மை, நேரமுன்பதிவு, பில்லிங், இருப்பு — தயாராக பயன்படுத்தும் மற்றும் தனிப்பயன் மென்பொருளை உங்கள் வேலைமுறைக்கு ஏற்ப உருவாக்குகிறோம்.",
+      "ctaPrimary": "தேவைகளைப் பேசுங்கள்",
+      "ctaSecondary": "தீர்வுகளைப் பாருங்கள்",
+      "support": "தயாராக உள்ள தயாரிப்புகள். தனிப்பயன் வேலைமுறை. நெகிழ்வான நிறுவல்.",
+      "served": "மருத்துவமனைகள், கிளினிக்குகள், மருந்தகங்கள் & உள்ளூர் வணிகங்கள் · தமிழ்நாடு"
     },
     "industries": {
       "eyebrow": "யாருக்கு",
-      "title": "பணிப்பளு உள்ள மருத்துவ அணிகளுக்காக.",
+      "title": "மருத்துவ அணிகள் மற்றும் வளரும் வணிகங்களுக்காக.",
       "items": [
         "மருத்துவமனைகள்",
         "நர்சிங் ஹோம்கள்",
         "கிளினிக்குகள்",
         "மருந்தகங்கள்",
-        "மருந்து உற்பத்தி",
+        "மருந்து வணிகங்கள்",
         "உள்ளூர் வணிகங்கள்"
       ]
     },
     "problems": {
-      "eyebrow": "சிக்கல்கள்",
-      "title": "இன்று உங்கள் முன்பணியை தாமதப்படுத்துவது.",
+      "eyebrow": "பொதுவான சிக்கல்கள்",
+      "title": "இன்று செயல்பாட்டை தாமதப்படுத்துவது.",
       "items": [
         "கையால் பில்லிங் & காகித பதிவுகள்",
         "பழைய நோயாளி பில் தேட கடினம்",
-        "அதே தரவு மீண்டும் உள்ளீடு",
+        "முன்பணியில் நேரமுன்பதிவு குழப்பம்",
         "IPD கட்டணங்கள் தவறிப்போதல்",
         "மருந்து இருப்பு தெளிவின்மை",
         "அறிக்கைகளுக்கு நீண்ட நேரம்",
@@ -249,96 +399,241 @@
     },
     "solutions": {
       "eyebrow": "தீர்வுகள்",
-      "title": "நான்கு அமைப்புகள். உங்களுக்கு ஏற்றவை.",
+      "title": "நாங்கள் உருவாக்கும் தீர்வுகள்",
+      "sub": "ஏற்கனவே உள்ள தீர்வைத் தேர்ந்தெடுக்கவும், தனிப்பயனாக்கவும், அல்லது உங்கள் வணிகத்திற்கு ஏற்ற புதிய ஒன்றை உருவாக்கவும்.",
+      "disclaimer": "இவை உங்கள் வேலைமுறைக்கு ஏற்ப நாங்கள் உருவாக்கி தனிப்பயனாக்கும் தீர்வுகள் — அளவு ஆலோசனையில் உறுதி செய்யப்படும்.",
+      "expand": "விவரங்கள்",
+      "collapse": "மறை",
       "items": [
         {
-          "title": "மருத்துவமனை மேலாண்மை",
-          "points": [
-            "IPD & OPD பில்லிங்",
-            "பதிவு & அனுமதி",
-            "விலைப்பட்டியல் & மறு அச்சு",
-            "முன்பணம் & செலுத்தல்",
-            "தினசரி அறிக்கைகள்"
+          "id": "appointments",
+          "title": "நேரமுன்பதிவு அமைப்புகள்",
+          "description": "நோயாளிகளுக்கு எளிதான முன்பதிவு; முன்பணிக்கு எளிதான மேலாண்மை.",
+          "value": "நோயாளிகள் ஆன்லைனில் பதிவு செய்கிறார்கள். உங்கள் அணி ஒரே இடத்தில் நிர்வகிக்கிறது.",
+          "capabilities": [
+            {
+              "title": "ஆன்லைன் நேரமுன்பதிவு",
+              "points": [
+                "நோயாளிகள் வலைதளம் வருகிறார்கள்",
+                "மருத்துவர் / சேவை / வகையைத் தேர்வு",
+                "கிடைக்கும் நாள் நேரம் தேர்வு",
+                "விவரங்கள் அனுப்புதல்",
+                "உறுதிப்படுத்தல் அல்லது அடுத்த படி"
+              ]
+            },
+            {
+              "title": "கேலெண்டர் இணைப்பு",
+              "note": "உங்கள் தற்போதைய கேலெண்டர் மற்றும் அமைப்பைப் பொறுத்தது.",
+              "points": [
+                "Google Calendar இணைப்பு",
+                "ஆதரிக்கப்படும் பிற கேலெண்டர்கள்",
+                "கிடைக்கும் நேர மேலாண்மை",
+                "முன்பதிவு ஒத்திசைவு",
+                "இரட்டை பதிவை குறைக்கும் பாதுகாப்பு"
+              ]
+            },
+            {
+              "title": "முன்பணி மேலாண்மை",
+              "points": [
+                "மைய முன்பதிவு டாஷ்போர்டு",
+                "வரவிருக்கும் நேரங்கள்",
+                "நோயாளி அளித்த விவரங்கள்",
+                "உறுதி / மாற்றம் / ரத்து",
+                "நிலை கண்காணிப்பு"
+              ]
+            }
           ]
         },
         {
-          "title": "மருந்தகம் & மருந்து இருப்பு",
-          "note": "சில்லறை பில்லிங் / உற்பத்தியிலிருந்து வேறுபட்டது.",
-          "points": [
-            "மருந்து பட்டியல்",
-            "பேட்ச் & காலாவதி",
-            "கொள்முதல் & இருப்பு",
-            "வழங்கல் & திரும்பல்",
-            "இருப்பு அறிக்கைகள்"
+          "id": "hospital",
+          "title": "பில்லிங் & மருத்துவமனை மேலாண்மை",
+          "description": "நோயாளி பில்லிங், கட்டணங்கள், செலுத்தல் மற்றும் செயல்பாட்டு பதிவுகளை ஒரே அமைப்பில்.",
+          "value": "கையெழுத்து நகல்கள் இல்லாமல் பில் உருவாக்கம், தேடல், மறு அச்சு.",
+          "capabilities": [
+            {
+              "title": "மருத்துவமனை பில்லிங்",
+              "points": [
+                "OPD மற்றும் IPD பில்லிங்",
+                "இறுதி உள்நோயாளி பில்",
+                "அனுமதி & வெளியேற்ற பில்லிங்",
+                "முன்பணம் & செலுத்தல் கண்காணிப்பு",
+                "ரசீதுகள் & திரும்பப்பெறல்",
+                "பழைய விலைப்பட்டியல் தேடல்",
+                "நகல் அச்சு",
+                "தனிப்பயன் பில் வடிவங்கள்",
+                "தினசரி வசூல் அறிக்கைகள்"
+              ]
+            },
+            {
+              "title": "மருந்து & நுகர்வு பொருள் இருப்பு",
+              "value": "மருந்து இயக்கத்தை மருத்துவமனை செயல்பாடு மற்றும் பில்லிங்குடன் இணைக்கவும்.",
+              "points": [
+                "மருந்து & நுகர்வு பட்டியல்",
+                "இருப்பு உள்ளீடு / வெளியீடு",
+                "கொள்முதல் மேலாண்மை",
+                "பேட்ச் & காலாவதி",
+                "உள்நோயாளிக்கு வழங்கல்",
+                "பயன்படாதது திரும்பல்",
+                "இருப்பு தெரிவு & குறைவு எச்சரிக்கை",
+                "இருப்பு அறிக்கைகள்"
+              ]
+            },
+            {
+              "title": "GST-தயார் CA அறிக்கைகள்",
+              "note": "CA-க்கான அறிக்கை/ஏற்றுமதி — GST தாக்கல் சேவை அல்ல.",
+              "value": "நிதி மற்றும் வரி தொடர்புடைய தரவை ஒழுங்குபடுத்தி CA GST தயாரிப்பை எளிதாக்கும்.",
+              "points": [
+                "விற்பனை விலைப்பட்டியல் ஏற்றுமதி",
+                "கொள்முதல் பதிவேடு ஏற்றுமதி",
+                "வரி சுருக்கங்கள்",
+                "கிரெடிட் / டெபிட் நோட் பதிவுகள்",
+                "மாதாந்திர அறிக்கைகள்",
+                "Excel/CSV ஏற்றுமதி",
+                "சரிசெய்தல் ஆதரவு"
+              ]
+            }
           ]
         },
         {
-          "title": "மருந்து உற்பத்தி",
-          "points": [
-            "மூலப்பொருள் இருப்பு",
-            "உற்பத்தி திட்டம்",
-            "பேட்ச் / லாட் கண்காணிப்பு",
-            "முடிவு பொருட்கள்",
-            "செலவு & அறிக்கைகள்"
-          ]
-        },
-        {
-          "title": "வலைதளம் & தனிப்பயன் ஆப்ஸ்",
-          "points": [
-            "வணிக வலைதளங்கள்",
-            "உள் டாஷ்போர்டுகள்",
-            "பணி தானியக்கம்",
-            "இணைப்புகள்"
+          "id": "pharmacy",
+          "title": "மருந்தக பில்லிங் & இருப்பு",
+          "description": "விற்பனை, இருப்பு இயக்கம் மற்றும் வணிக தெரிவை ஒரே தீர்வில்.",
+          "value": "பில்லிங், இருப்பு, வருவாய் தெரிவை இணைத்து வைத்திருங்கள்.",
+          "capabilities": [
+            {
+              "title": "மருந்தக பில்லிங்",
+              "points": [
+                "விரைவு பொருள் தேடல்",
+                "வாடிக்கையாளர் பில்லிங்",
+                "விலைப்பட்டியல் & ரசீது",
+                "திரும்பல் & சரிசெய்தல்",
+                "தள்ளுபடி மேலாண்மை",
+                "பல செலுத்தல் முறைகள்",
+                "விற்பனை வரலாறு"
+              ]
+            },
+            {
+              "title": "இருப்பு மேலாண்மை",
+              "note": "FIFO போன்ற முறைகள் தேவைக்கேற்ப அமைக்கலாம்.",
+              "points": [
+                "தேவைக்கேற்ப FIFO உள்ளிட்ட இருப்பு முறைகள்",
+                "பேட்ச் & காலாவதி",
+                "கொள்முதல் & சப்ளையர் மேலாண்மை",
+                "இருப்பு இயக்க வரலாறு",
+                "குறைவு எச்சரிக்கை",
+                "இருப்பு சரிசெய்தல்",
+                "திரும்பல் & சேதமடைந்த இருப்பு"
+              ]
+            },
+            {
+              "title": "வணிக தெரிவு",
+              "points": [
+                "தினசரி விற்பனை & வருவாய்",
+                "கொள்முதல் & விற்பனை அறிக்கைகள்",
+                "பொருள் வாரியான விற்பனை",
+                "இருப்பு மதிப்பீடு",
+                "செலவு தரவு இருந்தால் இலாப குறியீடுகள்",
+                "காலாவதி & மெதுவான இருப்பு அறிக்கைகள்"
+              ]
+            }
           ]
         }
       ]
     },
+    "custom": {
+      "eyebrow": "தனிப்பயன் உருவாக்கம்",
+      "title": "வேறு ஏதாவது வேண்டுமா? நாங்கள் உருவாக்குவோம்.",
+      "sub": "ஒவ்வொரு வணிகத்திற்கும் தனி வேலைமுறை உண்டு. ஏற்கனவே உள்ள தயாரிப்பு பொருந்தவில்லை என்றால், உங்கள் செயல்பாட்டிற்கேற்ப உருவாக்குகிறோம்.",
+      "examplesTitle": "உதாரணங்கள்",
+      "examples": [
+        "தனிப்பயன் டாஷ்போர்டுகள்",
+        "உள் மேலாண்மை அமைப்புகள்",
+        "பணி தானியக்கம்",
+        "முன்பதிவு தளங்கள்",
+        "பில்லிங் அமைப்புகள்",
+        "இருப்பு ஆப்ஸ்",
+        "வணிக வலைதளங்கள்",
+        "மென்பொருள் இணைப்புகள்",
+        "துறை சார்ந்த ஆப்ஸ்"
+      ],
+      "pathsTitle": "மூன்று வழிகள்",
+      "paths": [
+        {
+          "title": "ஏற்கனவே உள்ள தயாரிப்பு",
+          "detail": "எங்கள் தற்போதைய தீர்வுகளில் ஒன்றில் தொடங்குங்கள்."
+        },
+        {
+          "title": "தனிப்பயனாக்கம்",
+          "detail": "திரைகள், வேலைமுறை, அறிக்கைகள், இணைப்புகள், விதிகளை மாற்றுங்கள்."
+        },
+        {
+          "title": "புதிதாக உருவாக்கம்",
+          "detail": "உங்கள் தேவைகளுக்கேற்ப தனி ஆப் உருவாக்குகிறோம்."
+        }
+      ],
+      "cta": "உங்கள் தேவையைச் சொல்லுங்கள்"
+    },
     "deployment": {
       "eyebrow": "நிறுவல்",
-      "title": "உங்கள் சர்வர். உங்கள் தேர்வு.",
-      "sub": "பாதுகாப்பு, இணைப்பு, காப்பு தேவைகளுக்கு ஏற்ப — எல்லாருக்கும் ஒரே கிளவுட் அல்ல.",
+      "title": "உங்கள் மென்பொருள். உங்கள் உள்கட்டமைப்பு. உங்கள் தேர்வு.",
+      "sub": "உள்கட்டமைப்பு, பாதுகாப்பு தேவைகள் மற்றும் தினசரி செயல்பாட்டின் அடிப்படையில் நிறுவல் மாதிரியைத் தேர்வு செய்ய உதவுகிறோம்.",
       "items": [
         {
           "title": "உள் வளாகம்",
-          "detail": "உங்கள் உள்ளூர் உள்கட்டமைப்பில் இயங்கும்."
+          "detail": "உங்கள் சர்வரில் ஹோஸ்ட். தரவு உங்கள் சூழலில். உள்ளூர் அணுகல் மற்றும் உங்கள் காப்பு."
         },
         {
           "title": "பாதுகாப்பான தொலை அணுகல்",
-          "detail": "VPN அல்லது அடையாள அடிப்படையிலான நுழைவாயில்."
+          "detail": "VPN அல்லது அடையாள அடிப்படையிலான நுழைவாயில், பங்கு அடிப்படையிலான அனுமதிகள்."
         },
         {
           "title": "கிளவுட்",
-          "detail": "தேவைப்படும்போது நிர்வகிக்கப்பட்ட ஹோஸ்டிங்."
+          "detail": "நிர்வகிக்கப்பட்ட ஹோஸ்டிங், தொலை அணுகல், மைய புதுப்பிப்புகள், அமைக்கக்கூடிய காப்பு."
         }
       ]
     },
     "process": {
       "eyebrow": "எங்கள் முறை",
-      "title": "ஐந்து தெளிவான படிகள்.",
+      "title": "உங்கள் வேலைமுறையிலிருந்து இயங்கும் மென்பொருள் வரை.",
       "steps": [
-        "உங்கள் பணியைப் புரிந்துகொள்",
-        "வேலைமுறை வரைபடம்",
-        "உருவாக்கி தனிப்பயன்",
-        "நிறுவி பயிற்சி",
-        "ஆதரவு & மேம்பாடு"
+        {
+          "title": "புரிதல்",
+          "detail": "உங்கள் வணிகம் எப்படி இயங்குகிறது என்பதை அறிகிறோம்."
+        },
+        {
+          "title": "வடிவமைப்பு",
+          "detail": "வேலைமுறை வரைபடம் மற்றும் சரியான அணுகுமுறை."
+        },
+        {
+          "title": "உருவாக்கம்",
+          "detail": "அமைத்தல், தனிப்பயனாக்கம் அல்லது புதிய உருவாக்கம்."
+        },
+        {
+          "title": "நிறுவல்",
+          "detail": "தீர்வை நிறுவி அமைக்கிறோம்."
+        },
+        {
+          "title": "ஆதரவு",
+          "detail": "பயிற்சி மற்றும் தொடர் மேம்பாடு."
+        }
       ]
     },
     "why": {
       "eyebrow": "ஏன் Tokenly",
-      "title": "நடைமுறை. உள்ளூர். நெகிழ்வு.",
+      "title": "நடைமுறை மென்பொருள். உண்மையான வேலைமுறை.",
       "items": [
-        "நேரடி டெவலப்பர் ஈடுபாடு",
-        "தனிப்பயன் வேலைமுறை",
-        "உள்ளூர் அமலாக்கம்",
-        "நெகிழ்வான நிறுவல்",
-        "பணியாளர் பயிற்சி",
-        "தொடர் ஆதரவு"
+        "உண்மையான வணிக வேலைமுறைக்கு ஏற்ற தீர்வுகள்",
+        "ஏற்கனவே உள்ள தயாரிப்புகள் மற்றும் தனிப்பயன் உருவாக்கம்",
+        "நெகிழ்வான உள் வளாகம் மற்றும் கிளவுட்",
+        "நேரடி தொழில்நுட்ப ஈடுபாடு",
+        "நடைமுறை அமலாக்கம் மற்றும் பயிற்சி",
+        "தொடர் ஆதரவு மற்றும் மேம்பாடு"
       ]
     },
     "contact": {
       "eyebrow": "தொடர்பு",
-      "title": "10 நிமிடம் இருந்தால் போதும்.",
-      "sub": "தேவையைச் சொல்லுங்கள். அடுத்த படியைத் தெளிவாகச் சொல்கிறோம்.",
+      "title": "உங்கள் வணிகத்திற்கு ஏற்ற தீர்வை உருவாக்குவோம்.",
+      "sub": "எதை மேம்படுத்த வேண்டும் என்று சொல்லுங்கள். வேலைமுறையைப் புரிந்து சரியான அணுகுமுறையைப் பேசுவோம்.",
       "location": "இடம்",
       "email": "மின்னஞ்சல்",
       "phone": "தொலைபேசி",
@@ -349,20 +644,23 @@
         "organization": "நிறுவனம்",
         "phone": "தொலைபேசி",
         "email": "மின்னஞ்சல்",
-        "solution": "என்ன தேவை?",
+        "solution": "தேவையான தீர்வு வகை",
         "solutionPlaceholder": "ஒன்றைத் தேர்ந்தெடுக்கவும்",
-        "description": "சுருக்கக் குறிப்பு",
-        "descriptionPlaceholder": "மருத்துவமனை அளவு, தற்போதைய சிக்கல், என்ன சரிசெய்ய வேண்டும்.",
-        "submit": "இலவச ஆலோசனை",
+        "description": "சுருக்க விவரம்",
+        "descriptionPlaceholder": "பில்லிங், நேரமுன்பதிவு, இருப்பு, அறிக்கை அல்லது தனிப்பயன் தேவையா?",
+        "submit": "தேவைகளைப் பேசுங்கள்",
         "submitting": "அனுப்புகிறது…",
         "whatsapp": "WhatsApp அரட்டை",
         "emailUs": "மின்னஞ்சல் அனுப்பு",
         "options": [
-          "மருத்துவமனை மேலாண்மை மென்பொருள்",
-          "மருந்தகம் / மருந்து இருப்பு",
-          "மருந்து உற்பத்தி",
-          "வலைதளம் / தனிப்பயன் ஆப்",
-          "இன்னும் தெரியவில்லை"
+          "மருத்துவமனை மேலாண்மை / பில்லிங்",
+          "நேரமுன்பதிவு",
+          "மருத்துவமனை மருந்து இருப்பு",
+          "மருந்தக பில்லிங் & இருப்பு",
+          "GST / CA அறிக்கைகள்",
+          "தனிப்பயன் மென்பொருள்",
+          "வணிக வலைதளம்",
+          "மற்றவை"
         ],
         "errors": {
           "name": "பெயரை உள்ளிடவும்.",
@@ -378,31 +676,31 @@
       }
     },
     "footer": {
-      "blurb": "தமிழ்நாட்டிற்கான தனிப்பயன் மருத்துவ & வணிக மென்பொருள்.",
+      "blurb": "தமிழ்நாட்டிற்கான தயாராக மற்றும் தனிப்பயன் மருத்துவ மென்பொருள்.",
       "solutions": "தீர்வுகள்",
       "company": "நிறுவனம்",
       "contact": "தொடர்பு",
       "about": "எங்களைப் பற்றி",
       "deployment": "நிறுவல்",
+      "custom": "தனிப்பயன் உருவாக்கம்",
       "privacy": "தனியுரிமைக் கொள்கை",
       "terms": "விதிமுறைகள்",
       "tokenly": "Tokenly",
-      "hospital": "மருத்துவமனை மேலாண்மை",
-      "pharmacy": "மருந்தக இருப்பு",
-      "pharma": "மருந்து உற்பத்தி",
-      "custom": "தனிப்பயன் ஆப்ஸ்",
+      "appointments": "நேரமுன்பதிவு",
+      "hospital": "மருத்துவமனை மேலாண்மை & பில்லிங்",
+      "pharmacy": "மருந்தக பில்லிங் & இருப்பு",
       "rights": "அனைத்து உரிமைகளும் பாதுகாக்கப்பட்டவை.",
-      "tag": "இந்திய மருத்துவமனை வேலைமுறைகளுக்காக."
+      "tag": "இந்திய மருத்துவமனை மற்றும் வணிக வேலைமுறைகளுக்காக."
     },
     "privacy": {
       "back": "முகப்புக்குத் திரும்பு",
       "title": "தனியுரிமைக் கொள்கை",
-      "updated": "கடைசியாக புதுப்பிக்கப்பட்டது: 10 நவம்பர் 2026"
+      "updated": "கடைசியாக புதுப்பிக்கப்பட்டது: 11 நவம்பர் 2026"
     },
     "terms": {
       "back": "முகப்புக்குத் திரும்பு",
       "title": "பயன்பாட்டு விதிமுறைகள்",
-      "updated": "கடைசியாக புதுப்பிக்கப்பட்டது: 10 நவம்பர் 2026"
+      "updated": "கடைசியாக புதுப்பிக்கப்பட்டது: 11 நவம்பர் 2026"
     }
   }
 }

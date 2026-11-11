@@ -13,14 +13,29 @@ export function Footer() {
         <div>
           <Logo />
           <p className="mt-3 max-w-xs text-base leading-relaxed text-navy-600">{t.footer.blurb}</p>
+          <p className="mt-3 text-base text-navy-600">
+            <a href={brand.mailto} className="hover:text-navy-900">
+              {brand.email}
+            </a>
+            <span className="mx-2">·</span>
+            <a href={`tel:+${brand.whatsapp}`} className="hover:text-navy-900">
+              {brand.phoneDisplay}
+            </a>
+          </p>
         </div>
 
         <div className="flex flex-wrap gap-x-6 gap-y-2 text-base text-navy-600">
-          <a href="/#solutions" className="hover:text-navy-900">
+          <a href="/#appointments" className="hover:text-navy-900">
+            {t.footer.appointments}
+          </a>
+          <a href="/#hospital" className="hover:text-navy-900">
             {t.footer.hospital}
           </a>
-          <a href="/#solutions" className="hover:text-navy-900">
+          <a href="/#pharmacy" className="hover:text-navy-900">
             {t.footer.pharmacy}
+          </a>
+          <a href="/#custom" className="hover:text-navy-900">
+            {t.footer.custom}
           </a>
           <a href="/#deployment" className="hover:text-navy-900">
             {t.footer.deployment}

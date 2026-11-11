@@ -5,7 +5,7 @@ const phoneDisplay = '+91 97897 29792'
 export const brand = {
   name: 'Tokenly',
   legalName: 'Tokenly',
-  tagline: 'Healthcare Software Built Around Your Business.',
+  tagline: 'Software That Works the Way Your Business Does.',
   location: 'Tamil Nadu, India',
   mainSiteUrl: 'https://tokenly.in',
   email,

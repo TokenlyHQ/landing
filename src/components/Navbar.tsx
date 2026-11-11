@@ -6,7 +6,7 @@ import { Logo } from './Logo'
 
 const navHrefs = [
   { key: 'solutions', href: '#solutions' },
-  { key: 'industries', href: '#industries' },
+  { key: 'custom', href: '#custom' },
   { key: 'deployment', href: '#deployment' },
   { key: 'about', href: '#about' },
   { key: 'contact', href: '#contact' },
@@ -28,7 +28,7 @@ export function Navbar() {
       <div className="mx-auto flex h-[72px] max-w-[1160px] items-center justify-between gap-3 px-4 sm:px-8">
         <Logo />
 
-        <nav className="hidden items-center gap-7 lg:flex" aria-label="Primary">
+        <nav className="hidden items-center gap-5 lg:flex" aria-label="Primary">
           {navHrefs.map((item) => (
             <a
               key={item.href}

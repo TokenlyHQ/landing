@@ -1,4 +1,5 @@
 import { Contact } from '../sections/Contact'
+import { CustomDevelopment } from '../sections/CustomDevelopment'
 import { Deployment } from '../sections/Deployment'
 import { Hero } from '../sections/Hero'
 import { HowWeWork } from '../sections/HowWeWork'
@@ -14,6 +15,7 @@ export function Home() {
       <Industries />
       <Problems />
       <Solutions />
+      <CustomDevelopment />
       <Deployment />
       <HowWeWork />
       <WhyUs />

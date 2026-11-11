@@ -15,11 +15,12 @@ export function HowWeWork() {
 
         <ol className="mt-8 grid gap-3 sm:grid-cols-2 lg:grid-cols-5">
           {t.process.steps.map((step, index) => (
-            <li key={step} className="surface-card rounded-2xl px-4 py-5">
+            <li key={step.title} className="surface-card rounded-2xl px-4 py-5">
               <span className="text-2xl font-semibold text-accent-600">
                 {String(index + 1).padStart(2, '0')}
               </span>
-              <p className="mt-2 text-base font-semibold text-navy-900">{step}</p>
+              <h3 className="mt-2 text-base font-semibold text-navy-900">{step.title}</h3>
+              <p className="mt-1.5 text-base text-navy-600">{step.detail}</p>
             </li>
           ))}
         </ol>
