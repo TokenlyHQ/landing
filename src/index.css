@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+Tamil:wght@400;500;600;700&display=swap');
+@import 'tailwindcss';
+
+@theme {
+  --font-sans: 'Inter', 'Noto Sans Tamil', system-ui, -apple-system, sans-serif;
+  --font-display: 'Inter', 'Noto Sans Tamil', system-ui, -apple-system, sans-serif;
+
+  /* Tokenly ink scale (mapped onto existing navy-* class names) */
+  --color-navy-950: #0c0c0f;
+  --color-navy-900: #0c0c0f;
+  --color-navy-800: #1a1a22;
+  --color-navy-700: #3a3f4d;
+  --color-navy-600: #5b6070;
+  --color-navy-500: #5b6070;
+  --color-navy-100: #ececf0;
+  --color-navy-50: #f4f4f6;
+
+  /* Tokenly accent red */
+  --color-accent-700: #a13636;
+  --color-accent-600: #c84141;
+  --color-accent-500: #d45454;
+  --color-accent-100: #f8e4e4;
+  --color-accent-50: #fbf0f0;
+
+  --color-surface: #fafaf9;
+  --color-surface-muted: #ffffff;
+  --color-border: #e8e8ec;
+  --color-border-strong: #d8d8de;
+
+  --shadow-tokenly: 0 1px 2px rgb(15 15 20 / 0.04), 0 12px 32px rgb(15 15 20 / 0.06);
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply m-0 min-h-screen bg-surface font-sans text-navy-900 antialiased;
+    overflow-x: hidden;
+  }
+
+  ::selection {
+    background: rgb(200 65 65 / 0.16);
+    color: #0c0c0f;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    font-family: var(--font-display);
+    letter-spacing: -0.02em;
+  }
+
+  a {
+    @apply text-inherit no-underline;
+  }
+
+  :focus-visible {
+    @apply outline-2 outline-offset-2 outline-accent-600;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+
+  .animate-fade-up {
+    animation: fade-up 0.7s ease-out both;
+  }
+
+  .surface-card {
+    background: rgb(255 255 255 / 0.72);
+    border: 1px solid rgb(15 15 20 / 0.08);
+    box-shadow: var(--shadow-tokenly);
+    backdrop-filter: blur(12px);
+  }
+}
+
+@keyframes fade-up {
+  from {
+    opacity: 0;
+    transform: translateY(16px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  .animate-fade-up {
+    animation: none !important;
+  }
+}

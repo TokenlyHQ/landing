@@ -1,0 +1,424 @@
+{
+  "en": {
+    "langName": "English",
+    "langShort": "EN",
+    "nav": {
+      "solutions": "Solutions",
+      "industries": "Industries",
+      "deployment": "Deployment",
+      "about": "About",
+      "contact": "Contact",
+      "cta": "Book a Consultation",
+      "menuOpen": "Open menu",
+      "menuClose": "Close menu"
+    },
+    "hero": {
+      "headline": "Healthcare software built around your hospital.",
+      "sub": "Billing, patients, pharmacy stock — matched to your workflow, on your infrastructure.",
+      "ctaPrimary": "Book a Free Consultation",
+      "ctaSecondary": "See Solutions",
+      "served": "Hospitals, clinics & pharmacies · Tamil Nadu"
+    },
+    "industries": {
+      "eyebrow": "Who we serve",
+      "title": "Built for busy healthcare teams.",
+      "items": [
+        "Hospitals",
+        "Nursing homes",
+        "Clinics",
+        "Pharmacies",
+        "Pharma businesses",
+        "Local businesses"
+      ]
+    },
+    "problems": {
+      "eyebrow": "Pain points",
+      "title": "What slows your front desk today.",
+      "items": [
+        "Manual billing & paper records",
+        "Hard-to-find old patient bills",
+        "Same data typed again and again",
+        "Missed charges during IPD stays",
+        "No clear view of pharmacy stock",
+        "Reports that take hours",
+        "Software that fights your process"
+      ]
+    },
+    "solutions": {
+      "eyebrow": "Solutions",
+      "title": "Four systems. Built to fit.",
+      "items": [
+        {
+          "title": "Hospital Management",
+          "points": [
+            "IPD & OPD billing",
+            "Registration & admission",
+            "Invoices & reprints",
+            "Advances & payments",
+            "Daily reports"
+          ]
+        },
+        {
+          "title": "Pharmacy & Drug Inventory",
+          "note": "Separate from retail billing & manufacturing.",
+          "points": [
+            "Drug catalogue",
+            "Batch & expiry",
+            "Purchases & stock",
+            "Issue & return",
+            "Inventory reports"
+          ]
+        },
+        {
+          "title": "Pharma Manufacturing",
+          "points": [
+            "Raw materials",
+            "Production planning",
+            "Batch / lot tracking",
+            "Finished goods",
+            "Costing & reports"
+          ]
+        },
+        {
+          "title": "Websites & Custom Apps",
+          "points": [
+            "Business websites",
+            "Internal dashboards",
+            "Workflow automation",
+            "Integrations"
+          ]
+        }
+      ]
+    },
+    "deployment": {
+      "eyebrow": "Deployment",
+      "title": "Your servers. Your choice.",
+      "sub": "We match security, connectivity and backup needs — no one-size-fits-all cloud push.",
+      "items": [
+        {
+          "title": "On-premise",
+          "detail": "Runs on your local infrastructure."
+        },
+        {
+          "title": "Secure remote",
+          "detail": "VPN or identity-controlled gateway access."
+        },
+        {
+          "title": "Cloud",
+          "detail": "Managed hosting when it suits you."
+        }
+      ],
+      "note": "Wi-Fi allowlists alone are not a security guarantee."
+    },
+    "process": {
+      "eyebrow": "How we work",
+      "title": "Five clear steps.",
+      "steps": [
+        "Understand your work",
+        "Map workflows",
+        "Build & customize",
+        "Deploy & train",
+        "Support & improve"
+      ]
+    },
+    "why": {
+      "eyebrow": "Why Tokenly",
+      "title": "Practical. Local. Flexible.",
+      "items": [
+        "Direct developer involvement",
+        "Custom workflows",
+        "Local implementation",
+        "Flexible deployment",
+        "Hands-on staff training",
+        "Ongoing support"
+      ]
+    },
+    "contact": {
+      "eyebrow": "Contact",
+      "title": "Ready when you have 10 minutes.",
+      "sub": "Tell us what you need. We reply with a clear next step.",
+      "location": "Location",
+      "email": "Email",
+      "whatsapp": "WhatsApp",
+      "whatsappCta": "Message on WhatsApp",
+      "emailMissing": "Add VITE_CONTACT_EMAIL in .env",
+      "whatsappMissing": "Add VITE_WHATSAPP_NUMBER in .env",
+      "form": {
+        "name": "Name",
+        "organization": "Organization",
+        "phone": "Phone",
+        "email": "Email",
+        "solution": "What do you need?",
+        "solutionPlaceholder": "Select an option",
+        "description": "Short note",
+        "descriptionPlaceholder": "Hospital size, current pain, what you want fixed.",
+        "submit": "Book a Free Consultation",
+        "submitting": "Sending…",
+        "whatsapp": "Chat on WhatsApp",
+        "emailUs": "Email us",
+        "options": [
+          "Hospital Management Software",
+          "Pharmacy / Drug Inventory",
+          "Pharmaceutical Manufacturing",
+          "Custom Website / Business App",
+          "Not sure yet"
+        ],
+        "errors": {
+          "name": "Enter your name.",
+          "organization": "Enter your organisation.",
+          "phone": "Enter a valid 10-digit mobile number.",
+          "email": "Enter a valid email.",
+          "solution": "Select a solution.",
+          "description": "Add a short note (20+ characters).",
+          "fix": "Please fix the highlighted fields.",
+          "channels": "Contact channels not configured. Add email, WhatsApp or Formspree in .env.",
+          "sendFail": "Could not send. Please use email or WhatsApp below."
+        },
+        "successFormspree": "Received. We will respond shortly.",
+        "successWhatsapp": "Opening WhatsApp with your enquiry.",
+        "successEmail": "Opening your email client.",
+        "backendHint": "No form backend yet. Submissions open WhatsApp or email when set in .env. For server delivery, add VITE_FORMSPREE_ENDPOINT."
+      }
+    },
+    "footer": {
+      "blurb": "Custom healthcare & business software for Tamil Nadu.",
+      "solutions": "Solutions",
+      "company": "Company",
+      "contact": "Contact",
+      "about": "About",
+      "deployment": "Deployment",
+      "privacy": "Privacy Policy",
+      "terms": "Terms",
+      "tokenly": "Tokenly",
+      "hospital": "Hospital Management",
+      "pharmacy": "Pharmacy Inventory",
+      "pharma": "Pharma Manufacturing",
+      "custom": "Custom Applications",
+      "emailConfig": "Email: configure in .env",
+      "whatsappConfig": "WhatsApp: configure in .env",
+      "rights": "All rights reserved.",
+      "tag": "Built for Indian hospital workflows."
+    },
+    "privacy": {
+      "back": "Back to home",
+      "title": "Privacy Policy",
+      "updated": "Last updated: 10 November 2026"
+    },
+    "terms": {
+      "back": "Back to home",
+      "title": "Terms of Use",
+      "updated": "Last updated: 10 November 2026"
+    }
+  },
+  "ta": {
+    "langName": "தமிழ்",
+    "langShort": "TA",
+    "nav": {
+      "solutions": "தீர்வுகள்",
+      "industries": "துறைகள்",
+      "deployment": "நிறுவல்",
+      "about": "எங்களைப் பற்றி",
+      "contact": "தொடர்பு",
+      "cta": "ஆலோசனை பதிவு",
+      "menuOpen": "மெனு திற",
+      "menuClose": "மெனு மூடு"
+    },
+    "hero": {
+      "headline": "உங்கள் மருத்துவமனைக்கு ஏற்ற மென்பொருள்.",
+      "sub": "பில்லிங், நோயாளி மேலாண்மை, மருந்து இருப்பு — உங்கள் வேலைமுறைப்படி, உங்கள் சர்வரில்.",
+      "ctaPrimary": "இலவச ஆலோசனை",
+      "ctaSecondary": "தீர்வுகள்",
+      "served": "மருத்துவமனைகள், கிளினிக்குகள் & மருந்தகங்கள் · தமிழ்நாடு"
+    },
+    "industries": {
+      "eyebrow": "யாருக்கு",
+      "title": "பணிப்பளு உள்ள மருத்துவ அணிகளுக்காக.",
+      "items": [
+        "மருத்துவமனைகள்",
+        "நர்சிங் ஹோம்கள்",
+        "கிளினிக்குகள்",
+        "மருந்தகங்கள்",
+        "மருந்து உற்பத்தி",
+        "உள்ளூர் வணிகங்கள்"
+      ]
+    },
+    "problems": {
+      "eyebrow": "சிக்கல்கள்",
+      "title": "இன்று உங்கள் முன்பணியை தாமதப்படுத்துவது.",
+      "items": [
+        "கையால் பில்லிங் & காகித பதிவுகள்",
+        "பழைய நோயாளி பில் தேட கடினம்",
+        "அதே தரவு மீண்டும் உள்ளீடு",
+        "IPD கட்டணங்கள் தவறிப்போதல்",
+        "மருந்து இருப்பு தெளிவின்மை",
+        "அறிக்கைகளுக்கு நீண்ட நேரம்",
+        "வேலைமுறைக்குப் பொருந்தாத மென்பொருள்"
+      ]
+    },
+    "solutions": {
+      "eyebrow": "தீர்வுகள்",
+      "title": "நான்கு அமைப்புகள். உங்களுக்கு ஏற்றவை.",
+      "items": [
+        {
+          "title": "மருத்துவமனை மேலாண்மை",
+          "points": [
+            "IPD & OPD பில்லிங்",
+            "பதிவு & அனுமதி",
+            "விலைப்பட்டியல் & மறு அச்சு",
+            "முன்பணம் & செலுத்தல்",
+            "தினசரி அறிக்கைகள்"
+          ]
+        },
+        {
+          "title": "மருந்தகம் & மருந்து இருப்பு",
+          "note": "சில்லறை பில்லிங் / உற்பத்தியிலிருந்து வேறுபட்டது.",
+          "points": [
+            "மருந்து பட்டியல்",
+            "பேட்ச் & காலாவதி",
+            "கொள்முதல் & இருப்பு",
+            "வழங்கல் & திரும்பல்",
+            "இருப்பு அறிக்கைகள்"
+          ]
+        },
+        {
+          "title": "மருந்து உற்பத்தி",
+          "points": [
+            "மூலப்பொருள் இருப்பு",
+            "உற்பத்தி திட்டம்",
+            "பேட்ச் / லாட் கண்காணிப்பு",
+            "முடிவு பொருட்கள்",
+            "செலவு & அறிக்கைகள்"
+          ]
+        },
+        {
+          "title": "வலைதளம் & தனிப்பயன் ஆப்ஸ்",
+          "points": [
+            "வணிக வலைதளங்கள்",
+            "உள் டாஷ்போர்டுகள்",
+            "பணி தானியக்கம்",
+            "இணைப்புகள்"
+          ]
+        }
+      ]
+    },
+    "deployment": {
+      "eyebrow": "நிறுவல்",
+      "title": "உங்கள் சர்வர். உங்கள் தேர்வு.",
+      "sub": "பாதுகாப்பு, இணைப்பு, காப்பு தேவைகளுக்கு ஏற்ப — எல்லாருக்கும் ஒரே கிளவுட் அல்ல.",
+      "items": [
+        {
+          "title": "உள் வளாகம்",
+          "detail": "உங்கள் உள்ளூர் உள்கட்டமைப்பில் இயங்கும்."
+        },
+        {
+          "title": "பாதுகாப்பான தொலை அணுகல்",
+          "detail": "VPN அல்லது அடையாள அடிப்படையிலான நுழைவாயில்."
+        },
+        {
+          "title": "கிளவுட்",
+          "detail": "தேவைப்படும்போது நிர்வகிக்கப்பட்ட ஹோஸ்டிங்."
+        }
+      ],
+      "note": "Wi-Fi அனுமதிப்பட்டியல் மட்டும் பாதுகாப்பு உத்தரவாதம் அல்ல."
+    },
+    "process": {
+      "eyebrow": "எங்கள் முறை",
+      "title": "ஐந்து தெளிவான படிகள்.",
+      "steps": [
+        "உங்கள் பணியைப் புரிந்துகொள்",
+        "வேலைமுறை வரைபடம்",
+        "உருவாக்கி தனிப்பயன்",
+        "நிறுவி பயிற்சி",
+        "ஆதரவு & மேம்பாடு"
+      ]
+    },
+    "why": {
+      "eyebrow": "ஏன் Tokenly",
+      "title": "நடைமுறை. உள்ளூர். நெகிழ்வு.",
+      "items": [
+        "நேரடி டெவலப்பர் ஈடுபாடு",
+        "தனிப்பயன் வேலைமுறை",
+        "உள்ளூர் அமலாக்கம்",
+        "நெகிழ்வான நிறுவல்",
+        "பணியாளர் பயிற்சி",
+        "தொடர் ஆதரவு"
+      ]
+    },
+    "contact": {
+      "eyebrow": "தொடர்பு",
+      "title": "10 நிமிடம் இருந்தால் போதும்.",
+      "sub": "தேவையைச் சொல்லுங்கள். அடுத்த படியைத் தெளிவாகச் சொல்கிறோம்.",
+      "location": "இடம்",
+      "email": "மின்னஞ்சல்",
+      "whatsapp": "WhatsApp",
+      "whatsappCta": "WhatsApp செய்தி",
+      "emailMissing": ".env இல் VITE_CONTACT_EMAIL சேர்க்கவும்",
+      "whatsappMissing": ".env இல் VITE_WHATSAPP_NUMBER சேர்க்கவும்",
+      "form": {
+        "name": "பெயர்",
+        "organization": "நிறுவனம்",
+        "phone": "தொலைபேசி",
+        "email": "மின்னஞ்சல்",
+        "solution": "என்ன தேவை?",
+        "solutionPlaceholder": "ஒன்றைத் தேர்ந்தெடுக்கவும்",
+        "description": "சுருக்கக் குறிப்பு",
+        "descriptionPlaceholder": "மருத்துவமனை அளவு, தற்போதைய சிக்கல், என்ன சரிசெய்ய வேண்டும்.",
+        "submit": "இலவச ஆலோசனை",
+        "submitting": "அனுப்புகிறது…",
+        "whatsapp": "WhatsApp அரட்டை",
+        "emailUs": "மின்னஞ்சல் அனுப்பு",
+        "options": [
+          "மருத்துவமனை மேலாண்மை மென்பொருள்",
+          "மருந்தகம் / மருந்து இருப்பு",
+          "மருந்து உற்பத்தி",
+          "வலைதளம் / தனிப்பயன் ஆப்",
+          "இன்னும் தெரியவில்லை"
+        ],
+        "errors": {
+          "name": "பெயரை உள்ளிடவும்.",
+          "organization": "நிறுவனப் பெயரை உள்ளிடவும்.",
+          "phone": "சரியான 10 இலக்க மொபைல் எண் உள்ளிடவும்.",
+          "email": "சரியான மின்னஞ்சல் உள்ளிடவும்.",
+          "solution": "ஒரு தீர்வைத் தேர்ந்தெடுக்கவும்.",
+          "description": "குறுகிய குறிப்பு எழுதவும் (20+ எழுத்துகள்).",
+          "fix": "குறிக்கப்பட்ட புலங்களை சரிசெய்யவும்.",
+          "channels": "தொடர்பு அமைக்கப்படவில்லை. .env இல் மின்னஞ்சல், WhatsApp அல்லது Formspree சேர்க்கவும்.",
+          "sendFail": "அனுப்ப முடியவில்லை. கீழே மின்னஞ்சல் அல்லது WhatsApp பயன்படுத்தவும்."
+        },
+        "successFormspree": "பெற்றோம். விரைவில் பதிலளிக்கிறோம்.",
+        "successWhatsapp": "உங்கள் கேள்வியுடன் WhatsApp திறக்கிறது.",
+        "successEmail": "மின்னஞ்சல் பயன்பாட்டைத் திறக்கிறது.",
+        "backendHint": "Form backend இல்லை. .env அமைத்தால் WhatsApp அல்லது மின்னஞ்சல் திறக்கும். சர்வர் அனுப்பலுக்கு VITE_FORMSPREE_ENDPOINT சேர்க்கவும்."
+      }
+    },
+    "footer": {
+      "blurb": "தமிழ்நாட்டிற்கான தனிப்பயன் மருத்துவ & வணிக மென்பொருள்.",
+      "solutions": "தீர்வுகள்",
+      "company": "நிறுவனம்",
+      "contact": "தொடர்பு",
+      "about": "எங்களைப் பற்றி",
+      "deployment": "நிறுவல்",
+      "privacy": "தனியுரிமைக் கொள்கை",
+      "terms": "விதிமுறைகள்",
+      "tokenly": "Tokenly",
+      "hospital": "மருத்துவமனை மேலாண்மை",
+      "pharmacy": "மருந்தக இருப்பு",
+      "pharma": "மருந்து உற்பத்தி",
+      "custom": "தனிப்பயன் ஆப்ஸ்",
+      "emailConfig": "மின்னஞ்சல்: .env இல் அமைக்கவும்",
+      "whatsappConfig": "WhatsApp: .env இல் அமைக்கவும்",
+      "rights": "அனைத்து உரிமைகளும் பாதுகாக்கப்பட்டவை.",
+      "tag": "இந்திய மருத்துவமனை வேலைமுறைகளுக்காக."
+    },
+    "privacy": {
+      "back": "முகப்புக்குத் திரும்பு",
+      "title": "தனியுரிமைக் கொள்கை",
+      "updated": "கடைசியாக புதுப்பிக்கப்பட்டது: 10 நவம்பர் 2026"
+    },
+    "terms": {
+      "back": "முகப்புக்குத் திரும்பு",
+      "title": "பயன்பாட்டு விதிமுறைகள்",
+      "updated": "கடைசியாக புதுப்பிக்கப்பட்டது: 10 நவம்பர் 2026"
+    }
+  }
+}
