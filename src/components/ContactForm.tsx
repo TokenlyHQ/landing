@@ -78,51 +78,13 @@ export function ContactForm() {
     const message = buildMessage(values)
 
     try {
-      if (brand.hasFormBackend) {
-        const response = await fetch(brand.formspreeEndpoint, {
-          method: 'POST',
-          headers: {
-            Accept: 'application/json',
-            'Content-Type': 'application/json',
-          },
-          body: JSON.stringify({
-            name: values.name.trim(),
-            organization: values.organization.trim(),
-            phone: values.phone.trim(),
-            email: values.email.trim(),
-            solution: values.solution,
-            message: values.description.trim(),
-            _subject: `Consultation: ${values.organization.trim()}`,
-          }),
-        })
-        if (!response.ok) throw new Error('rejected')
-        setStatus('success')
-        setStatusMessage(form.successFormspree)
-        setValues(initialState)
-        return
-      }
-
-      if (brand.hasWhatsApp) {
-        window.open(
-          `https://wa.me/${brand.whatsapp}?text=${encodeURIComponent(message)}`,
-          '_blank',
-          'noopener,noreferrer',
-        )
-        setStatus('success')
-        setStatusMessage(form.successWhatsapp)
-        return
-      }
-
-      if (brand.hasEmail) {
-        const subject = encodeURIComponent(`Consultation — ${values.organization.trim()}`)
-        window.location.href = `mailto:${brand.email}?subject=${subject}&body=${encodeURIComponent(message)}`
-        setStatus('success')
-        setStatusMessage(form.successEmail)
-        return
-      }
-
-      setStatus('error')
-      setStatusMessage(form.errors.channels)
+      window.open(
+        `https://wa.me/${brand.whatsapp}?text=${encodeURIComponent(message)}`,
+        '_blank',
+        'noopener,noreferrer',
+      )
+      setStatus('success')
+      setStatusMessage(form.successWhatsapp)
     } catch {
       setStatus('error')
       setStatusMessage(form.errors.sendFail)
@@ -251,22 +213,18 @@ export function ContactForm() {
         <Button type="submit" size="lg" disabled={status === 'submitting'}>
           {status === 'submitting' ? form.submitting : form.submit}
         </Button>
-        {brand.hasWhatsApp ? (
-          <Button
-            href={brand.whatsappUrl}
-            variant="secondary"
-            size="lg"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            {form.whatsapp}
-          </Button>
-        ) : null}
-        {brand.hasEmail ? (
-          <Button href={brand.mailto} variant="ghost" size="lg">
-            {form.emailUs}
-          </Button>
-        ) : null}
+        <Button
+          href={brand.whatsappUrl}
+          variant="secondary"
+          size="lg"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          {form.whatsapp}
+        </Button>
+        <Button href={brand.mailto} variant="ghost" size="lg">
+          {form.emailUs}
+        </Button>
       </div>
 
       {statusMessage ? (
@@ -277,10 +235,6 @@ export function ContactForm() {
         >
           {statusMessage}
         </p>
-      ) : null}
-
-      {!brand.hasFormBackend ? (
-        <p className="mt-3 text-xs leading-relaxed text-navy-500">{form.backendHint}</p>
       ) : null}
     </form>
   )

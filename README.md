@@ -15,25 +15,13 @@ Premium B2B marketing site for Tokenly: custom hospital, pharmacy and business s
 # Use Node 20+
 nvm use
 
-cp .env.example .env
-# Edit .env with your email, WhatsApp number and optional Formspree endpoint
-
 npm install
 npm run dev
 ```
 
 Open the URL printed by Vite (usually `http://localhost:5173`).
 
-## Environment variables
-
-| Variable | Purpose |
-| --- | --- |
-| `VITE_CONTACT_EMAIL` | Public contact email / mailto links |
-| `VITE_WHATSAPP_NUMBER` | Digits with country code, e.g. `919876543210` |
-| `VITE_SITE_URL` | Canonical site URL for SEO |
-| `VITE_FORMSPREE_ENDPOINT` | Optional Formspree URL for server-side form delivery |
-
-Without Formspree, the contact form opens WhatsApp (preferred) or a prefilled mailto draft when those values are set.
+Contact details live in `src/config/brand.ts` (email + WhatsApp). The consultation form opens WhatsApp with a prefilled enquiry.
 
 ## Production build
 
@@ -48,9 +36,8 @@ Static output is written to `dist/`.
 
 Any static host works:
 
-1. Set environment variables in the host (or bake a `.env` before build).
-2. Build with `npm run build`.
-3. Publish the `dist/` folder.
+1. Build with `npm run build`.
+2. Publish the `dist/` folder.
 
 **Vercel / Netlify / Cloudflare Pages**
 
@@ -67,25 +54,14 @@ location / {
 }
 ```
 
-Update `index.html`, `public/sitemap.xml`, `public/robots.txt` and `VITE_SITE_URL` to your real domain before launch.
+Canonical SEO URLs currently point to `https://health.tokenly.in` in `index.html`, `public/sitemap.xml`, and `public/robots.txt`.
 
-## Contact form backend
+## CI/CD (GitHub Pages)
 
-Recommended for production:
+Workflow: `.github/workflows/production-client.yml`
 
-1. Create a form at [Formspree](https://formspree.io).
-2. Set `VITE_FORMSPREE_ENDPOINT=https://formspree.io/f/your-id`.
-3. Rebuild.
+1. In the repo, set secret `DEPLOYMENT_EMAIL` to the authorized deployer email.
+2. Enable **GitHub Pages** → Source: **GitHub Actions**.
+3. Run **Actions → Production-Client → Run workflow**, enter the same email, and deploy.
 
-Alternatives: Formspark, Getform, Basin, or a small API that emails via Resend/SendGrid.
-
-## Missing brand information
-
-Fill these before go-live:
-
-- Legal / trading name confirmation (currently **Tokenly**, from the project name)
-- Contact email
-- WhatsApp number
-- Production domain confirmation (`https://health.tokenly.in`)
-- Contact email and WhatsApp number
-- Privacy/terms review with counsel if required
+The workflow verifies the email, builds the Vite app, uploads `dist/`, and deploys to GitHub Pages.

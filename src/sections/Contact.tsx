@@ -25,30 +25,30 @@ export function Contact() {
             <div>
               <dt className="font-semibold text-navy-900">{t.contact.email}</dt>
               <dd className="mt-0.5 text-navy-600">
-                {brand.hasEmail ? (
-                  <a href={brand.mailto} className="text-accent-700 hover:underline">
-                    {brand.email}
-                  </a>
-                ) : (
-                  <span>{t.contact.emailMissing}</span>
-                )}
+                <a href={brand.mailto} className="text-accent-700 hover:underline">
+                  {brand.email}
+                </a>
+              </dd>
+            </div>
+            <div>
+              <dt className="font-semibold text-navy-900">{t.contact.phone}</dt>
+              <dd className="mt-0.5 text-navy-600">
+                <a href={`tel:+${brand.whatsapp}`} className="hover:underline">
+                  {brand.phoneDisplay}
+                </a>
               </dd>
             </div>
             <div>
               <dt className="font-semibold text-navy-900">{t.contact.whatsapp}</dt>
               <dd className="mt-0.5 text-navy-600">
-                {brand.hasWhatsApp ? (
-                  <a
-                    href={brand.whatsappUrl}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-accent-700 hover:underline"
-                  >
-                    {t.contact.whatsappCta}
-                  </a>
-                ) : (
-                  <span>{t.contact.whatsappMissing}</span>
-                )}
+                <a
+                  href={brand.whatsappUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-accent-700 hover:underline"
+                >
+                  {t.contact.whatsappCta}
+                </a>
               </dd>
             </div>
           </dl>
