@@ -92,8 +92,8 @@ export function ContactForm() {
   }
 
   const fieldClass =
-    'mt-1.5 w-full rounded-xl border border-[rgba(15,15,20,0.08)] bg-white px-3.5 py-2.5 text-sm text-navy-900 transition placeholder:text-[#9298a8] focus:border-accent-600 focus:ring-2 focus:ring-accent-50'
-  const errorClass = 'mt-1.5 text-xs font-medium text-red-600'
+    'mt-1.5 w-full rounded-xl border border-[rgba(15,15,20,0.08)] bg-white px-4 py-3 text-base text-navy-900 transition placeholder:text-[#9298a8] focus:border-accent-600 focus:ring-2 focus:ring-accent-50'
+  const errorClass = 'mt-1.5 text-sm font-medium text-red-600'
 
   return (
     <form
@@ -103,7 +103,7 @@ export function ContactForm() {
     >
       <div className="grid gap-4 sm:grid-cols-2">
         <div>
-          <label htmlFor="name" className="text-sm font-medium text-navy-800">
+          <label htmlFor="name" className="text-base font-medium text-navy-800">
             {form.name}
           </label>
           <input
@@ -119,7 +119,7 @@ export function ContactForm() {
         </div>
 
         <div>
-          <label htmlFor="organization" className="text-sm font-medium text-navy-800">
+          <label htmlFor="organization" className="text-base font-medium text-navy-800">
             {form.organization}
           </label>
           <input
@@ -135,7 +135,7 @@ export function ContactForm() {
         </div>
 
         <div>
-          <label htmlFor="phone" className="text-sm font-medium text-navy-800">
+          <label htmlFor="phone" className="text-base font-medium text-navy-800">
             {form.phone}
           </label>
           <input
@@ -153,7 +153,7 @@ export function ContactForm() {
         </div>
 
         <div>
-          <label htmlFor="email" className="text-sm font-medium text-navy-800">
+          <label htmlFor="email" className="text-base font-medium text-navy-800">
             {form.email}
           </label>
           <input
@@ -170,7 +170,7 @@ export function ContactForm() {
         </div>
 
         <div className="sm:col-span-2">
-          <label htmlFor="solution" className="text-sm font-medium text-navy-800">
+          <label htmlFor="solution" className="text-base font-medium text-navy-800">
             {form.solution}
           </label>
           <select
@@ -192,7 +192,7 @@ export function ContactForm() {
         </div>
 
         <div className="sm:col-span-2">
-          <label htmlFor="description" className="text-sm font-medium text-navy-800">
+          <label htmlFor="description" className="text-base font-medium text-navy-800">
             {form.description}
           </label>
           <textarea
@@ -229,7 +229,7 @@ export function ContactForm() {
 
       {statusMessage ? (
         <p
-          className={`mt-3 text-sm ${status === 'error' ? 'text-red-600' : 'text-navy-700'}`}
+          className={`mt-3 text-base ${status === 'error' ? 'text-red-600' : 'text-navy-700'}`}
           role="status"
           aria-live="polite"
         >

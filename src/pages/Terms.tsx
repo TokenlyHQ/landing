@@ -15,17 +15,17 @@ export function Terms() {
 
   return (
     <main className="mx-auto max-w-3xl px-4 py-16 sm:px-6 lg:px-8">
-      <p className="text-sm font-medium text-accent-600">
+      <p className="text-base font-medium text-accent-600">
         <Link to="/" className="hover:underline">
           ← {t.terms.back}
         </Link>
       </p>
-      <h1 className="mt-4 font-display text-4xl font-semibold tracking-tight text-navy-900">
+      <h1 className="mt-4 font-display text-4xl font-semibold tracking-tight text-navy-900 sm:text-5xl">
         {t.terms.title}
       </h1>
-      <p className="mt-3 text-sm text-navy-500">{t.terms.updated}</p>
+      <p className="mt-3 text-base text-navy-500">{t.terms.updated}</p>
 
-      <div className="mt-8 space-y-6 text-base leading-relaxed text-navy-700">
+      <div className="mt-8 space-y-6 text-lg leading-relaxed text-navy-700">
         <p>
           These terms govern use of the {brand.name} website. By using this site, you agree to these
           terms.

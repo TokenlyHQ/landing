@@ -33,7 +33,7 @@ export function Navbar() {
             <a
               key={item.href}
               href={item.href}
-              className="text-sm text-navy-600 transition hover:text-navy-900"
+              className="text-base text-navy-600 transition hover:text-navy-900"
             >
               {t.nav[item.key]}
             </a>
@@ -80,7 +80,7 @@ export function Navbar() {
               <a
                 key={item.href}
                 href={item.href}
-                className="rounded-lg px-3 py-3 text-base font-medium text-navy-800 hover:bg-black/[0.03]"
+                className="rounded-lg px-3 py-3.5 text-lg font-medium text-navy-800 hover:bg-black/[0.03]"
                 onClick={() => setOpen(false)}
               >
                 {t.nav[item.key]}

@@ -15,17 +15,17 @@ export function Privacy() {
 
   return (
     <main className="mx-auto max-w-3xl px-4 py-16 sm:px-6 lg:px-8">
-      <p className="text-sm font-medium text-accent-600">
+      <p className="text-base font-medium text-accent-600">
         <Link to="/" className="hover:underline">
           ← {t.privacy.back}
         </Link>
       </p>
-      <h1 className="mt-4 font-display text-4xl font-semibold tracking-tight text-navy-900">
+      <h1 className="mt-4 font-display text-4xl font-semibold tracking-tight text-navy-900 sm:text-5xl">
         {t.privacy.title}
       </h1>
-      <p className="mt-3 text-sm text-navy-500">{t.privacy.updated}</p>
+      <p className="mt-3 text-base text-navy-500">{t.privacy.updated}</p>
 
-      <div className="prose-navy mt-8 space-y-6 text-base leading-relaxed text-navy-700">
+      <div className="prose-navy mt-8 space-y-6 text-lg leading-relaxed text-navy-700">
         <p>
           {brand.name} (&quot;we&quot;, &quot;us&quot;) builds custom healthcare and business
           software. This policy explains how we handle information submitted through this website.

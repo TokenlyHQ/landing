@@ -6,25 +6,27 @@ export function Solutions() {
   return (
     <section className="py-14 sm:py-16" id="solutions">
       <div className="mx-auto max-w-[1160px] px-4 sm:px-8">
-        <p className="text-sm font-semibold tracking-wide text-accent-600 uppercase">
+        <p className="text-base font-semibold tracking-wide text-accent-600 uppercase">
           {t.solutions.eyebrow}
         </p>
-        <h2 className="mt-2 text-2xl font-semibold tracking-tight text-navy-900 sm:text-3xl">
+        <h2 className="mt-2 text-3xl font-semibold tracking-tight text-navy-900 sm:text-4xl">
           {t.solutions.title}
         </h2>
 
         <div className="mt-8 grid gap-4 sm:grid-cols-2">
           {t.solutions.items.map((solution) => (
-            <article key={solution.title} className="surface-card rounded-2xl p-5">
-              <h3 className="text-lg font-semibold text-navy-900">{solution.title}</h3>
+            <article key={solution.title} className="surface-card rounded-2xl p-5 sm:p-6">
+              <h3 className="text-xl font-semibold text-navy-900 sm:text-2xl">{solution.title}</h3>
               {'note' in solution && solution.note ? (
-                <p className="mt-2 text-xs font-medium text-accent-700">{solution.note}</p>
+                <p className="mt-2 text-sm font-medium text-accent-700 sm:text-base">
+                  {solution.note}
+                </p>
               ) : null}
-              <ul className="mt-4 space-y-1.5">
+              <ul className="mt-4 space-y-2">
                 {solution.points.map((point) => (
-                  <li key={point} className="flex items-start gap-2 text-sm text-navy-700">
+                  <li key={point} className="flex items-start gap-3 text-base text-navy-700">
                     <span
-                      className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-accent-600"
+                      className="mt-2 h-2 w-2 shrink-0 rounded-full bg-accent-600"
                       aria-hidden
                     />
                     {point}

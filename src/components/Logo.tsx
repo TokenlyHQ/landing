@@ -20,7 +20,7 @@ export function Logo({ className = '' }: LogoProps) {
         className="h-[23px] w-7 object-contain"
         aria-hidden="true"
       />
-      <span className="text-lg font-semibold tracking-[-0.02em] text-navy-900">{brand.name}</span>
+      <span className="text-xl font-semibold tracking-[-0.02em] text-navy-900">{brand.name}</span>
     </Link>
   )
 }

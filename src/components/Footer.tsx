@@ -8,14 +8,14 @@ export function Footer() {
   const year = new Date().getFullYear()
 
   return (
-    <footer className="relative mx-auto w-full max-w-[1160px] px-4 pb-10 pt-16 text-[13px] text-[#9298a8] sm:px-8">
+    <footer className="relative mx-auto w-full max-w-[1160px] px-4 pb-10 pt-16 text-base text-[#9298a8] sm:px-8">
       <div className="flex flex-col gap-8 sm:flex-row sm:items-start sm:justify-between">
         <div>
           <Logo />
-          <p className="mt-3 max-w-xs text-sm leading-relaxed text-navy-600">{t.footer.blurb}</p>
+          <p className="mt-3 max-w-xs text-base leading-relaxed text-navy-600">{t.footer.blurb}</p>
         </div>
 
-        <div className="flex flex-wrap gap-x-6 gap-y-2 text-sm text-navy-600">
+        <div className="flex flex-wrap gap-x-6 gap-y-2 text-base text-navy-600">
           <a href="/#solutions" className="hover:text-navy-900">
             {t.footer.hospital}
           </a>

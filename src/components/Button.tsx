@@ -48,8 +48,8 @@ const variants: Record<Variant, string> = {
 }
 
 const sizes: Record<Size, string> = {
-  md: 'px-3.5 py-2 text-sm',
-  lg: 'px-5 py-3 text-[15px]',
+  md: 'px-4 py-2.5 text-base',
+  lg: 'px-6 py-3.5 text-lg',
 }
 
 export function Button(props: ButtonProps) {

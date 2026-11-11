@@ -6,7 +6,7 @@ export function LanguageSwitch({ className = '' }: { className?: string }) {
 
   return (
     <div
-      className={`inline-flex rounded-[10px] border border-[rgba(15,15,20,0.08)] bg-white/70 p-0.5 text-sm backdrop-blur-sm ${className}`}
+      className={`inline-flex rounded-[10px] border border-[rgba(15,15,20,0.08)] bg-white/70 p-0.5 text-base backdrop-blur-sm ${className}`}
       role="group"
       aria-label="Language"
     >
